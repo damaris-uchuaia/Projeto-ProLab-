@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Linha 274 a 290 ->ARTICLE / ASIDE
+      Linha 108 - botão voltar ao topo
+      Linha 84 do documento JS cnpj
+      Linha 156 do documento JS (mostrar ceta topo)
+      Linha 64 do documento CSS (Estilização do footer)
+
+  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/lab.js">
+
+
+    <link rel="shortcut icon" href="imgs/small-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Laboratório Prolab</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <nav  class="navbar navbar-expand-lg navbar-light bg-light conteudo-menu">
+            <a class="navbar-brand" href="#"><img class="img-nav" style="height: 50px;width: auto;" src="imgs/logo.png"></a>
+           
+            <button class="navbar-toggler mr-4" type="button" data-toggle="collapse" 
+          data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" 
+          aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+              <ul class="navbar-nav mr-auto conteudo-menu">
+                <li class="nav-item active ">
+                  <a class="nav-link " href="#quem-somos">Quem somos <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#agendar">Agendamento online</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle mb-4" href="#" id="navbarDropdown" role="button" 
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Orientações exames
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <!--<a class="dropdown-item" href="#footer">Formas de pagamento</a>--> 
+                    <a class="dropdown-item" href="#about-us">Nossos exames</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#qr-code">Resultado por QRCode</a>
+                  </div>
+                </li>
+               <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Fale conosco</a>
+                </li>-->
+              </ul>
+              <form class="form-inline my-2 my-lg-0 form3">
+                
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <img style="height: 17px;" src="imgs/search-outline.svg" alt="">
+                <!-- <button class="btn btn-info my-2 my-sm-0" type="submit">Pesquisar</button>-->
+              </form>
+              <a href="#footer">
+              <button class="btn btn-info my-2 my-sm-0 bto-nav" type="submit">Fale conosco</button></a>
+            </div>
+          </nav>
+
+        <section class="textos-header">
+            <h1><img style="height: 63px;width: auto;" src="imgs/home-insurance.svg">Coleta domiciliar</h1>
+            <h2>Atendimento humanizado</h2>
+            <button id="bto-f" type="button" class="btn btn-outline-light mt-5 cta">Resultado de exames</button>
+            
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M-2.54,61.67 C328.72,200.81 352.99,23.19 501.97,91.28 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: rgb(255, 255, 255);"></path>
+        </svg></div>
+
+    </header>
+
+<main>
+  
+
+
+  <!--------------------------------->
+    <h3 id="quem-somos"style="margin-top: 50px; text-align: center; color:rgb(66, 153, 156);">Quem somos</h3>
+  
+    <div class="container">
+        <div class="row">
+          <!--<div class="col-4 mb-5"><img id="img1" class="img-fluid" style="width: 300px;height: auto;" src="imgs/Isometric Lab.jpg"></div>-->  
+            <div class=".col-md-3  my-4 "><p class="text lead text-justify mr-2 ml-2">Laboratório especializado em cuidados integrados à saúde, com foco em medicina diagnóstica, admirados pela qualidade médica, eficiência, inovação e excelência em serviços. Sonhamos alto e com ousadia,
+
+              trabalhamos com franqueza absoluta e extrema.
+              
+              O paciente é nossa razão de existir.</p></div>
+        </div>
+    </div>
+
+<!-----------animacao scroll top-------------------------->
+
+    <section>
+      <a class="ancora" href="#header"> <svg class="svg-seta" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-up" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <polyline points="6 15 12 9 18 15" />
+      </svg></a>
+      </section>
+      
+ <!-------------------MISSÃO------------------------->
+
+    <section class="section-missao">
+      <div class="container">
+      <div class="row">
+        <div class="col-sm-4 my-4 marcador"><img  style="width: 53px;height: auto;" src="imgs/visao.svg">
+          <h3 class="text-lg-left text-center">Visão</h3>
+          <p >Executar nosso trabalho com eficiência e entregar com excelência.</p></div>
+     
+     <div class="col-sm-4 my-4 marcador"><img c style="width: 70px;height: auto;" src="imgs/doctor.svg">
+         <h3 class="text-lg-left text-center">Missão</h3>
+          <p>Ser agente transformador na saúde, com medicina de excelência, atendimento humanizado.</p></div>
+
+     <div class="col-sm-4 my-4 marcador "><img   style="width: 56px;height: auto;" src="imgs/trust.svg">
+         <h3 class="text-lg-left text-center">Valores</h3>
+         <p class="text">Trabalhamos com franqueza absoluta e extrema.</p> </div>
+      </div>
+    </div>
+    </section>
+
+    <!-------------VENTANA MODAL--------->
+  <div class="modal-container">
+     
+      <div class="modal modal-close">
+        <p class="close">x</p>
+        <h2 class=" label1">Resultado de Exames</h2>
+     <form class="form-modal"> 
+      <div class="caixa"> 
+        <input class="form-control input"  type="text" placeholder="Chave">
+      </div>
+    
+      <div class="caixa">
+        
+        <input class="form-control input"  type="text" placeholder="Senha">
+      </div>
+   
+      <div class="caixa caixa-check">
+        <div > 
+          <input  type="checkbox">
+          <label>
+            Lembrar minha senha
+          </label>
+        </div>
+      </div>
+      <button class="btn btn-info bto1" type="submit">Entrar</button>
+ 
+      </form>
+  </div>
+</div>
+<!--------------------------------------------------------->
+
+<div class="container-fluid aba-foto">
+  <div class="row">
+    
+    <div class="col-sm-6 ml-0 p-0">
+      <img class="img-fluid mr-5"style="width: 100%;" src="imgs/cuidador-de-idosos.jpg" alt="">
+    </div>
+  
+    <div class="col-sm-6">
+    <h3 class="pt-0 pt-md-2">Solicite sua coleta externa</h3>
+    <p>Praticidade e conforto são os principais benefícios do serviço de coleta externa do Laboratório Prolab. Nossa equipe vai até o local desejado, seja sua casa ou empresa, realiza a coleta com o mesmo padrão como se estivesse em uma de nossas unidades.</p>
+  
+  </div>  
+  
+</div>
+</div>
+
+<!-----------Formulários--------------->
+
+<div class="container">
+ 
+  <div id="agendar" class="row agendar my-lg-3">
+   
+    <div class="col-sm-6 my-lg-5 my-3"><h3>Faça o pré-agendamento de sua coleta externa preenchendo o formulário ao lado. O Laboratório ProLab UBJ entrará em contato para informar o valor da taxa de coleta e confirmar o agendamento em até 24h úteis.</h3>
+    <img src="imgs/logo.png" class="img-fluid my-4 " alt="">
+    </div>
+
+
+  
+  <div class="col-sm-6" >
+    <div class="form-row">
+      <div class="form-group  p-0">
+        <label></label>
+        <input  class="form-control cadastro-input" type="text" placeholder="Nome do paciente completo">
+      </div>
+    </div>
+    
+    <div class="form-row">
+      <div class="form-group col-6  p-0">
+        
+        <input  class="form-control cadastro-input" type="text" placeholder="Data de nascimento (DD/MM/AAAA)">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-6 p-0">
+        
+        <input  class="form-control cadastro-input" type="email" placeholder="E-mail">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-6 p-0">
+       
+        <input  class="form-control cadastro-input" type="text" placeholder="Telefone">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-6 p-0">
+
+        <input type="text" name="cpf" class="form-control cadastro-input" id="cpf" placeholder="CPF"
+            onblur="VerificaCPF()"
+            onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+     
+     
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-6 p-0">
+        <input  type="text" name="cnpj" class="form-control cadastro-input" id="cnpj" placeholder="CNPJ"
+        onblur="VerificaCNPJ()"
+        onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+        
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-info bto4 p-0 mb-4">Enviar</button>
+ 
+  </div>
+  </div>
+</div>
+<!------------------------------------------------------------->
+
+<div class="container-fluid contenedor-aside">
+  <div class="row">
+    <div id="qr-code" class="col-sm-6 contenedor-aside3">
+      <aside><img src="imgs/qr.png" class="img-fluid float-left mr-3 ml-5" style="width: 100px;height: auto;" alt="">
+        <h3 class="lead my-3">Rapidez</h3>
+        <p class="text">Acesse também seu resultado sem chave e senha. Use do QRCode
+          impresso na sua folha de protocolo.</p></aside>
+    </div>
+
+    <div class="col-sm-6 contenedor-aside2">
+      <article>
+        <p class="text lead mt-2 ">Aceitamos todas as bandeiras.</p>
+        <img class="img-fluid " src="imgs/badeiras.png" style="width: 200px;height: auto;" alt="">
+      </article>
+    </div>
+  </div>
+</div>
+<!----------------CARDS---------------------------------------->
+<section id="about-us" class="about-us">
+  <div class="contenedor1">
+    <h2 class="titulo">Alguns de nossos serviços</h2>
+    <div class="contenedor-articulo">
+      
+      <div class="articulo anime_inicial">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M5 12l5 5l10 -10" />
+        </svg>
+        <h3>Teste Covid-19</h3>
+        <p>Oferecemos diferentes testes laboratoriais indicados para investigação da infecção pelo SARS-CoV-2 (Coronavírus)..</p>
+        <a href="https://www.fleury.com.br/noticias/conheca-os-diferentes-tipos-de-teste-para-covid-19">Leia mais</a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#44cdf0" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <line x1="15" y1="16" x2="19" y2="12" />
+          <line x1="15" y1="8" x2="19" y2="12" />
+        </svg>
+      </div>
+
+      <div class="articulo anime_inicial">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M5 12l5 5l10 -10" />
+        </svg>
+        <h3>Hemograma</h3>
+        <p>Hemograma é um exame que avalia as células sanguíneas de um paciente, da série branca e vermelha.</p>
+        <a href="https://www.tuasaude.com/hemograma/">Leia mais</a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#44cdf0" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <line x1="15" y1="16" x2="19" y2="12" />
+          <line x1="15" y1="8" x2="19" y2="12" />
+        </svg>
+      </div>
+
+      <div class="articulo anime_inicial">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check"width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M5 12l5 5l10 -10" />
+        </svg>
+        <h3>Glicemia</h3>
+        <p>O exame de glicemia mede a glicose na circulação sanguínea. É necessário estar de 8 a 12 horas de jejum. </p>
+        <a href="https://sergiofranco.com.br/saude/exame-de-glicemia-de-jejum">Leia mais </a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="22" height="22"viewBox="0 0 24 24" stroke-width="1.5" stroke="#44cdf0" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <line x1="15" y1="16" x2="19" y2="12" />
+          <line x1="15" y1="8" x2="19" y2="12" />
+        </svg>
+      </div>
+
+      <div class="articulo anime_inicial">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M5 12l5 5l10 -10" />
+        </svg>
+        <h3>Creatinina e ureia</h3>
+        <p>São duas substâncias presentes na corrente sanguínea, que podem ser dosadas através de exames de sangue. </p>
+        <a href="#">Leia mais</a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#44cdf0" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <line x1="15" y1="16" x2="19" y2="12" />
+          <line x1="15" y1="8" x2="19" y2="12" />
+        </svg>
+      </div>
+
+      <div class="articulo anime_inicial">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M5 12l5 5l10 -10" />
+        </svg>
+        <h3>Colesterol</h3>
+        <p>O exame de colesterol, ou Perfil Lipídico, determina os níveis de Colesterol Total (CT), Triglicerídeos (TG)</p>
+        <a href="#">Leia mais</a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#44cdf0" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <line x1="15" y1="16" x2="19" y2="12" />
+          <line x1="15" y1="8" x2="19" y2="12" />
+        </svg>
+      </div>
+
+
+
+      <div class="articulo anime_inicial">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M5 12l5 5l10 -10" />
+        </svg>
+        <h3>TSH e T4 livre</h3>
+        <p>Serve para avaliar analisar o hormônio que possa estar em excesso causando o hipertireoidismo ou hipotireoidismo.</p>
+        <a href="#">Leia mais</a> 
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#44cdf0" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <line x1="15" y1="16" x2="19" y2="12" />
+          <line x1="15" y1="8" x2="19" y2="12" />
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-----------------atendimento celular------------------------------>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6 contenedor-cel mb-4">
+
+      <h4 class="text ml-4">Faça o Orçamento online e seja atendido mais rápido.</h4> 
+
+      <p class="text ml-4">Basta clicar no link e você será redirecionado para um de nossos atendentes.</p>
+  
+      <a href="https://api.whatsapp.com/message/5Y67HF2JSJW3I1
+      "><button type="submit" class="btn btn-info bto5 ml-4 mb-4" style="width: 80%;">Solicitar orçamento
+        </button></a>
+   
+   <p class="text ml-4 ">+55 88 9809-9423  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+    <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+  </svg></p>
+
+      </div>
+
+    <div class="col-sm-6 div-cel"><img class="img-fluid" style="margin-left:27px" src="imgs/atende-cortada.jpg" alt=""></div>
+  </div>
+</div>
+
+</main>
+<!-----------------FOOTER---------------->
+<footer id="footer">
+  
+  <h4 class="content-midias">Fale conosco</h4>
+  <div class="contenedor-footer">
+      <div class="content-midias">
+          
+        <a href="https://www.instagram.com/laboratorioprolabubj/"><img style="height: 30px;" src="imgs/instagram (1).svg" alt=""></a>  
+          <img  style="height: 30px;" src="imgs/facebook.svg" alt="">
+          <img style="height: 30px;" src="imgs/email.svg" alt="">
+      </div>
+
+      <div class="content-foo">
+          <h4>Núcleo de atendimento ao cliente</h4>
+          <p>Horário de Atendimento: 
+
+            Segunda a Sexta das 6h às 20h
+            Sábado <br> das 6h às 13h</p>
+
+      </div>
+
+      <p class="endereco">Ubajara-CE | Olinda-Tianguá-CE </p>
+  </div>
+
+ 
+  <h2 class="titulo-final">&copy;Laboratório Prolab </h2>
+  
+</footer>
+    
+    <script src="js/lab.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
